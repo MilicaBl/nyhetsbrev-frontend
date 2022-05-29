@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    background-color:aliceblue;
+}
+footer{
+    background-color: aliceblue;
+    height:20%;
+}
+#footerText{
+    margin:0;
+    padding-top:20px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+header{
+    background-color: aliceblue;
+    height:auto;
+    padding: 5%;
+}
+#logo{
+    margin:0;
+    padding-top:40px
+}
+main{
+    background-color: bisque;
+    height: 50%;
+    position: relative;
+}
+.mainText{
+    margin:0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    position: absolute;
+}
+input{
+    margin:5px;
+    height:30px
+}
+
+.welcomeUser{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 5%;
+    padding-left:5%
+}
+button{
+    width: 100px;
+    height: 30px;
+}
